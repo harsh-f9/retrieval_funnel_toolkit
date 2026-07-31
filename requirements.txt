@@ -1,0 +1,12 @@
+# Retrieval Funnel Toolkit Requirements
+# Note: CLI binaries (ast-grep, ripgrep) and CLI tools (aider-chat) are handled by setup_tools.sh
+
+pydantic>=2.0.0
+viztracer>=0.16.0
+sqlglot>=20.0.0
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Optional: Python CLI tools (can also be installed via `uv tool install aider-chat`)
+# aider-chat>=0.50.0
+
